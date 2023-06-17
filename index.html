@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu - Niaz</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="contain">
+            <div id="header">
+                <h1>KONVERSI SUHU</h1>
+                <p>Sebuah aplikasi web yang dirancang untuk mengonversi suhu dari satu satuan ke satuan lainnya.</p>
+                <span>
+                    <h2>Masukan nilai suhu yang akan di konversi</h2>
+                </span>
+            </div>
+            <div id="section">
+                <div>
+                    <input type="number" name="" class="value" id="input" value="0">
+                    <select name="T" id="selection_1" style="width: 100%;">
+                        <option value="Celsius">Derajat Celsius</option>
+                        <option value="Fahrenheit">Derajat Fahrenheit</option>
+                        <option value="Kelvin">Derajat Kelvin</option>
+                        <option value="Reamur">Derajat Reamur</option>
+                    </select>
+                </div>
+                <div class="large">=</div>
+                <div>
+                    <input type="number" name="" class="value" id="output" value="32">
+                    <select name="T" id="selection_2" style="width: 100%;">
+                        <option value="Fahrenheit">Derajat Fahrenheit</option>
+                        <option value="Celsius">Derajat Celsius</option>
+                        <option value="Kelvin">Derajat Kelvin</option>
+                        <option value="Reamur">Derajat Reamur</option>on>
+                    </select>
+                </div>
+            </div>
+            <div id="button">
+                <button type="button" class="btn" id="result">Konversi</button>
+                <button type="button" class="btn" id="reset">Reset</button>
+            </div>
+            <div id="formula">
+                <p id="title">Formula</p>
+                <p id="howto"></p>
+            </div>
+            <div id="note">
+                <p>Catatan: ketuk 2 kali tombol konversi untuk menunjukan hasil pada formula!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
